@@ -4,8 +4,7 @@ project(Matrix)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-include_directories(
+include_directories(include)
 
-)
 
-add_executable(Matrix main.cpp)
+add_executable(Matrix main.cpp src/Matrix.cpp)
